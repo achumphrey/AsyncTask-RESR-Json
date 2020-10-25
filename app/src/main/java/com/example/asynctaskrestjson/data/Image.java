@@ -1,7 +1,7 @@
 package com.example.asynctaskrestjson.data;
 
-class Image {
-    String original;
+public class Image {
+    public String original;
 
     Image(String original){
         this.original = original;

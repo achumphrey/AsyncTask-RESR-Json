@@ -2,9 +2,9 @@ package com.example.asynctaskrestjson.data;
 
 
 public class DataObject {
-    Image image;
-    String name;
-    String premiered;
+    public Image image;
+    public String name;
+    public String premiered;
 
     DataObject(Image image, String name, String premiered){
         this.image = image;

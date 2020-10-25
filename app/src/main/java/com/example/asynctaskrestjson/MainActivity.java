@@ -30,9 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             data = asyncTaskData.execute(url).get();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
+        } catch (ExecutionException | InterruptedException e) {
             e.printStackTrace();
         }
 
